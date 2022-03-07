@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text Input page with password</title>
+    <style>
+        label {
+            display: block;
+            padding-bottom: 10px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <form action="https://handlers.education.launchcode.org/request-parrot" method="post">
+        <label>Code Name<input type="text" name="codeName"/></label>
+        <label>Code Word<input type="password" name="codeWord"/></label>
+
+        <!-- textarea must have open and closing tags -->
+        <label>
+            Mission Description <br/>
+            <textarea name="=description" rows="5" cols="75" ></textarea>
+        </label>
+
+        <button>send report</button>
+    </form>
+</body>
+
+</html>

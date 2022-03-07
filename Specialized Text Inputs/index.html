@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text Input page with password</title>
+    <style>
+        label {
+            display: block;
+            padding-bottom: 10px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <form action="https://handlers.education.launchcode.org/request-parrot" method="post">
+
+        <label>Email<input type="email" name="emailAddress"/> </label>
+        <label>Report Date<input type="date" name="reportDate"/> </label>
+        <label>crew count<input type="number" name="crewCount" min="1" max="10" /> </label>
+
+        <button>send report</button>
+    </form>
+</body>
+
+</html>
